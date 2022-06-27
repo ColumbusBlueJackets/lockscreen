@@ -1,7 +1,7 @@
  <div class="wrapper">
             <form class="form1" action="http://google.com">
                 <div class="formtitle">
-                    Enter the password to proceed
+                    Please enter the password to proceed.
                 </div>
 
                 <div class="input nobottomborder">
@@ -22,12 +22,15 @@
 
        <script>
       function checkPassword(){
-       if(document.getElementById('password').value == 'hello'){
+       if(document.getElementById('password').value == 'BlueJackets2000'){
         alert('Correct Password!'); 
-          location.href = "http://google.com";
+          location.href = "https://www.nhl.com/bluejackets/team/explore-columbus-2";
          } else {
          alert('Wrong Password!');
           return false;
         }
        }
       </script>
+
+<script src="https://s3.amazonaws.com/fed-nhl-microsites/prod/vendor/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+
